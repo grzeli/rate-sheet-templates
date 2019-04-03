@@ -3,6 +3,13 @@ html{
   //font-family: 'Lato', sans-serif;
   //font-family: 'Source Sans Pro', sans-serif;
 }
+.navbar-dark{
+  .navbar-nav{
+    .nav-link{
+      color:darken(white, 18%);
+    }
+  }
+}
 .navbar{
   background-color:#585880;
   min-height:70px;
@@ -72,6 +79,7 @@ html{
     padding:8px 12px!important;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0;
+
   }
   input[type="search"]{
     font-family: 'Source Sans Pro', sans-serif;
@@ -121,3 +129,4 @@ textarea:focus, input:focus{
 .navbar-toggler{
   outline:none!important;
 }
+
