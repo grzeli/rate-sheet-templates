@@ -37,7 +37,7 @@ function style() {
 function images() {
   return gulp
     .src("./src/images/**/*")
-    .pipe(newer("./src/images/img"))
+    .pipe(newer("./src/img-min"))
     .pipe(
       imagemin([
         imagemin.gifsicle({ interlaced: true }),
@@ -53,7 +53,7 @@ function images() {
         })
       ])
     )
-    .pipe(gulp.dest("./src/images/img"));
+    .pipe(gulp.dest("./src/img-min"));
 }
 
 function scriptsLint() {
