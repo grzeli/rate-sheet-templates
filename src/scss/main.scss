@@ -9,7 +9,15 @@ html{
   padding:15px 16px;
   .container > .navbar-nav{
     @media only screen and (max-width:991px){
-      display:none;
+      order:-1;
+      .dropdown-menu{
+        position:absolute!important;
+      }
+      .nav-link.dropdown-toggle{
+        @media only screen and (max-width:340px){
+          font-size: 12px;
+        }
+      }
     }
   }
   .nav-link.dropdown-toggle{
@@ -17,7 +25,7 @@ html{
     flex-wrap: wrap;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    padding:0 8px;
+    padding:0 0 0 12px!important;
     span{
       display:block;
       font-size: 12px;
@@ -28,14 +36,8 @@ html{
       }
     }
     @media only screen and (max-width:991px){
-      font-size: 0;
-      width:40px;
-      height:25px;
       span{
         display:none;
-      }
-      img{
-        fill:white;
       }
     }
   }
@@ -67,6 +69,7 @@ html{
   }
   .nav-link{
     font-size: 14px;
+    padding:8px 12px!important;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0;
   }
@@ -82,6 +85,9 @@ html{
     }
     @media only screen and (max-width:991px){
       width:340px;
+    }
+    @media only screen and (max-width:399px){
+      width:260px;
     }
     height:40px;
     border-radius: 8px;
@@ -104,6 +110,7 @@ textarea:focus, input:focus{
   position:relative;
   display:flex;
   flex-direction: row;
+  margin:0;
   flex-wrap: nowrap;
   justify-content: center;
   img{
