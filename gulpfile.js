@@ -8,6 +8,7 @@ var gulp = require("gulp"),
     eslint = require("gulp-eslint"),
     plumber = require("gulp-plumber"),
     concat = require("gulp-concat"),
+    newer = require("gulp-newer"),
     browserSync = require("browser-sync").create();
 
 var paths = {
