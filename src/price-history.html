@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="icon" sizes="192x192" href="img/brand/icon_192.png">
     <link rel="apple-touch-icon" href="img/brand/icon_192.png">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto|Source+Sans+Pro:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <meta http-equiv="cleartype" content="on">
   </head>
@@ -62,7 +62,8 @@
     <div class="container search-results">
       <div class="row">
         <div class="col-12 col-lg-10 push-lg-1">
-          <h2>Wyniki wyszukiwania dla: <span>Laptop Lenovo Ideapad</span></h2>
+          <a href="#" class="arrow-left">Wróć do list produktowych</a>
+          <h2>Moja lista laptopy Lenovo</h2>
           <div class="search-results_box">
             <div class="search-results_box-title">
               <div class="ids">
@@ -177,5 +178,30 @@
         </div>
       </div>
     </div>
+    <div class="price-history active">
+      <div class="product-id">
+        <h5>Historia cen produktu</h5>
+        <p>Lenovo Ideapad 320S-14IKB</p>
+        <span>SKU81BN009BPB</span>
+        <a href="#" class="close"></a>
+      </div>
+      <div class="price-chart">
+        <div class="form-inline">
+          <form>
+            <div class="form-incol">
+              <label for="start">Okres od:</label>
+              <input type="date" id="start" name="start-date" value="2019-04-04">
+            </div>
+            <div class="form-incol">
+              <label for="end">Okres do:</label>
+              <input type="date" id="end" name="end-date" value="2019-04-24">
+            </div>
+          </form>
+          <button type="submit" class="btn btn-info" value="Submit Button">Zastosuj</button>
+        </div>
+      </div>
+      <p class="bottom">Ostatnia aktualizacja danych: 09.11.2018r.</p>
+    </div>
+    <div class="modal-backdrop active"></div>
   </body>
 </html>

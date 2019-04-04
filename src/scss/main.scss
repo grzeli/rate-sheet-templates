@@ -329,3 +329,118 @@ h2{
     width:calc(50% - 170px);
   }
 }
+
+.price-history{
+  display:none;
+  position:absolute;
+  top:0;
+  right:0;
+  width:45%;
+  @media only screen and (max-width:991px){
+    width:100%;
+  }
+  z-index: 9999;
+  background:white;
+  padding:25px 25px 25px 40px;
+  height:100%;
+  h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color:#4B5760;
+    line-height: 13px;
+    margin:10px 0 0 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DADFEA;
+  }
+  .bottom{
+    bottom:5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color:#707070;
+  }
+}
+.product-id{
+  p{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 36px;
+    color:#43455A;
+    margin:20px 0 0 0;
+  }
+  span{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    margin:0 0 25px 0;
+    color:#43455A;
+  }
+}
+.form-inline{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin:25px 0;
+  form{
+    display:flex;
+    flex-direction: row;
+  }
+  input{
+    border-radius: 15px;
+    border:1px solid #DADFEA;
+    width:120px;
+    margin-right: 10px;
+    text-align: center;
+  }
+  label{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color:#43455A;
+    margin-bottom: 5px;
+  }
+  .btn.btn-info{
+    align-self: flex-end;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.3px;
+  }
+}
+.form-incol{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.bottom{
+  bottom:0px;
+  position:absolute;
+}
+.close{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  righT: 25px;
+  top: 20px;
+  background: url(/img-min/close2.svg) no-repeat 0 0;
+  background-size: 30px;
+  cursor: pointer;
+  display: block !important;  
+}
+.active{
+  display:block!important;
+}
+.modal-backdrop{
+  display:none;
+  opacity: 0.30;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #595A9E;
+}
