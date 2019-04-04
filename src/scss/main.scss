@@ -2,6 +2,11 @@ body{
   background-color: #F8F8F8;
   overflow-x: hidden;
 }
+.push-lg-1{
+  @media only screen and (min-width:992px){
+    left:calc((1/12)*100%);
+  }
+}
 h2{
   font-family: 'Lato', sans-serif;
   font-size: 30px;
@@ -78,5 +83,217 @@ h2{
     border:1px solid #EAEDEF;
     max-width:380px;
     width:100%;
+  }
+}
+
+.search-results{
+  h2{
+    line-height: 1;
+    margin:40px 0 35px;
+    span{
+      font-weight: 500;
+    }
+  }
+}
+.search-results_box{
+  background-color:white;
+  .search-results_item:last-of-type{
+    border-bottom: none;
+  }
+}
+.search-results_box-title{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:flex-start;
+  background-color: #F3F3F5;
+  height:50px;
+  align-items: center;
+  padding-left:25px;
+  @media only screen and (max-width:349px){
+    padding-left:15px;
+  }
+  @media only screen and (max-width:991px){
+    flex-wrap: wrap;
+    height:65px;
+  }
+  .ids{
+    width:calc(50% - 180px);
+    @media only screen and (max-width:991px){
+      width:calc(100% - 70px);
+      margin:0 0 -5px 0;
+      span:first-of-type{
+        width:35%;
+        margin-right: 30px;
+      }
+      span:nth-of-type(2){
+        width:30%;
+      }
+    }
+    @media only screen and (min-width:992px){
+      span:nth-of-type(1){
+        width:70%;
+      }
+      span:nth-of-type(2){
+        width:30%;
+      }
+    }
+    @media only screen and (max-width:600px){
+      display:none;
+    }
+  }
+}
+.brands{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width:49%;
+  margin-left:60px;
+  @media only screen and (max-width:991px){
+    width:97%;
+    margin-left:0;
+  }
+  span{
+    width:25%;
+  }
+  span:nth-of-type(1){
+    height:19px;
+    background:url(/img-min/ab.svg) no-repeat;
+  }
+  span:nth-of-type(2){
+    height:17px;
+    background:url(/img-min/abc.svg) no-repeat;
+  }
+  span:nth-of-type(3){
+    height:24px;
+    background:url(/img-min/also.svg) no-repeat;
+  }
+  span:nth-of-type(4){
+    height:19px;
+    background:url(/img-min/max.svg) no-repeat;
+  }
+}
+.in-row{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.search-results_item{
+  display:flex;
+  flex-direction: row;
+  @media only screen and (max-width:991px){
+    flex-wrap: wrap;
+    .in-row{
+      order:-1;
+      margin-top:-5px;
+    }
+  }
+  @media only screen and (min-width:992px){
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  padding:15px 20px 10px 25px;
+  border-bottom:1px solid #E2E5EE;
+  a{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0;
+    line-height: 13px;
+  }
+  p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 10px;
+    margin:0;
+    span{
+      font-size: 10px;
+      display:block;
+      line-height: 25px;
+    }
+  }
+  .in-row{
+    width:50px;
+  }
+  @media only screen and (max-width:349px){
+    .ids{
+      flex-direction: column;
+      a{
+        margin-bottom: 10px;
+      }
+    }
+    padding-left:15px;
+  }
+}
+.chart{
+  background:url(/img-min/chart.svg) no-repeat;
+  background-size:16px;
+  width:16px;
+  height:16px;
+}
+.settings{
+  background:url(/img-min/settings.svg) no-repeat;
+  background-size:19px;
+  width:19px;
+  height:19px;
+}
+.prices{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  p{
+    width:25%;
+  }
+  @media only screen and (max-width:991px){
+    width:100%;
+    order:1;
+  }
+  @media only screen and (min-width:992px){
+    width:50%;
+  }
+  @media only screen and (max-width:450px){
+    flex-direction: column;
+    p{
+      width:100%;
+      margin-bottom: 10px;
+    }
+  }
+}
+.ids{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  a:nth-of-type(1){
+    width:70%;
+  }
+  a:nth-of-type(2){
+    width:30%;
+  }
+
+  @media only screen and (max-width:991px){
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width:calc(100% - 50px);
+    order:-2;
+    margin-bottom: 15px;
+    a{
+      margin-right:30px;
+      &:last-of-type{
+        margin-right: 0;
+      }
+    }
+    a:nth-of-type(1){
+      width:35%;
+    }
+    a:nth-of-type(2){
+      width:50%;
+    }
+  }
+  @media only screen and (min-width:992px){
+    width:calc(50% - 170px);
   }
 }

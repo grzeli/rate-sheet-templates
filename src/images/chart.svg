@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 15.979">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #595a9e;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #339a99;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-3);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" class="cls-1" d="M0,0H3.981V8.968H0Z" transform="translate(0 0.032)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Clip_5" data-name="Clip 5" class="cls-1" d="M0,0H3.984V15.975H0Z" transform="translate(0.008 0.021)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Clip_8" data-name="Clip 8" class="cls-1" d="M0,0H3.981V10.62H0Z" transform="translate(0.019 0.036)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_10" data-name="Group 10" transform="translate(0 -0.021)">
+    <g id="Group_3" data-name="Group 3" transform="translate(0 7)">
+      <path id="Clip_2-2" data-name="Clip 2" class="cls-1" d="M0,0H3.981V8.968H0Z" transform="translate(0 0.032)"/>
+      <g id="Group_3-2" data-name="Group 3" class="cls-2">
+        <path id="Fill_1" data-name="Fill 1" class="cls-3" d="M3.671,0H.311A.32.32,0,0,0,0,.332V8.637a.32.32,0,0,0,.311.332h3.36a.32.32,0,0,0,.311-.332V.332A.32.32,0,0,0,3.671,0" transform="translate(0 0.032)"/>
+      </g>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(6)">
+      <path id="Clip_5-2" data-name="Clip 5" class="cls-1" d="M0,0H3.984V15.975H0Z" transform="translate(0.008 0.021)"/>
+      <g id="Group_6-2" data-name="Group 6" class="cls-4">
+        <path id="Fill_4" data-name="Fill 4" class="cls-5" d="M3.674,0H.311A.317.317,0,0,0,0,.326V15.65a.317.317,0,0,0,.311.326H3.674a.317.317,0,0,0,.311-.326V.326A.319.319,0,0,0,3.674,0" transform="translate(0.008 0.021)"/>
+      </g>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(12 5)">
+      <path id="Clip_8-2" data-name="Clip 8" class="cls-1" d="M0,0H3.981V10.62H0Z" transform="translate(0.019 0.036)"/>
+      <g id="Group_9-2" data-name="Group 9" class="cls-6">
+        <path id="Fill_7" data-name="Fill 7" class="cls-3" d="M3.671,10.62a.311.311,0,0,0,.311-.314V.314A.311.311,0,0,0,3.671,0H.311A.311.311,0,0,0,0,.314V10.3a.311.311,0,0,0,.311.314h3.36Z" transform="translate(0.019 0.036)"/>
+      </g>
+    </g>
+  </g>
+</svg>
